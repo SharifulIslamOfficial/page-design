@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    cursor: grab;
+}
+.header h1{
+    background-color: aqua;
+    /* position:sticky;
+    top: 40px; */
+    margin: 30px auto;
+
+}
+.message{
+    height: 350px;
+    width: 300px;
+    background: darkgoldenrod;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: default;
+}
+.message h2{
+    height: 45px;
+    width: 160px;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.message textarea{
+    margin-top: 5px;
+    margin-left: 28px;
+    text-align: left;
+    padding: 5px 5px;
+    font-size: 25px;
+    height: 200px;
+    width: 245px;
+    cursor:auto;
+}
+textarea::selection{
+    color:white;
+    background-color: black;
+}
+.message button{
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left:  70px;
+    background-color: bisque;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+    cursor: progress;
+}
+p::selection{
+    color: black;
+    background-color:green ;
+}
